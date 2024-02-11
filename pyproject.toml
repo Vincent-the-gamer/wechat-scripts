@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "wechat-scripts"
+version = "0.1.0"
+description = ""
+authors = ["Vincent-the-gamer"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.7"
+uiautomation = "^2.0.18"
+pywinauto = "^0.6.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+in-project = true
