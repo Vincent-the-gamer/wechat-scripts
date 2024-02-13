@@ -13,7 +13,6 @@ import win32clipboard as wc
 import win32con
 import win32gui
 
-PUBLISH_ID = '公众号：程序员晚枫'
 
 COPYDICT = {}
 
